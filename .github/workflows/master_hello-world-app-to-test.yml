@@ -52,4 +52,4 @@ jobs:
         with:
           app-name: 'hello-world-app-to-test'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_38D81F013BA843048A2DB61E0A645FBD }}
-          package: .
+          package: ./dist/hello-world-app
